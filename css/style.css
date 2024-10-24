@@ -1,0 +1,47 @@
+body {
+  background-image: url('../img/air.jpg');
+  background-size: cover;
+
+}
+h1 {
+    color: darkred;
+    background-color: greenyellow;
+    text-align: center;
+}
+
+ 
+ h3.one {
+    border: 2px solid red;
+ }
+ h3.two {
+    border: 3px dotted darkblue;
+}
+h3.three {
+    border: 5px dashed  orange;
+}
+h3.four {
+    border: 5px double red ;
+}
+p.five {
+     border-style: dotted double ;
+    }
+
+p.six {
+    border-style:double dashed solid ;
+    }
+p.seven {
+    border-style:solid double dotted dashed ;
+    }
+
+table, th, td {
+  border:1px double red;
+}
+
+
+div {
+  width: 320px;
+  height: 50px;
+  padding: 10px;
+  border: 5px solid gray;
+  margin: 0;
+}
